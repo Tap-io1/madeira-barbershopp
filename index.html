@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madeira Barbershop | Περιστέρι</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #d9d9d9;
+            color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 0.95rem;
+            color: #555555;
+            letter-spacing: 1px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px 20px;
+            background-color: #2b2b2b;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 600;
+            border-radius: 10px;
+            border: 1px solid #444444;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #444444;
+            border-color: #666666;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #555555;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>MADEIRA BARBERSHOP</h1>
+            <p>Βασιλέως Αλεξάνδρου 118, Περιστέρι</p>
+        </div>
+
+        <div class="links-container">
+
+            <!-- Κουμπί Google Review -->
+            <a href="https://search.google.com/local/writereview?placeid=ChIJrVnKVQCjoRQRlnzx7m82lHc"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn">
+               ⭐ Αξιολογήστε μας στο Google
+            </a>
+
+            <!-- Κουμπί Instagram -->
+            <a href="https://www.instagram.com/madeira_barbershop.ath?igsh=MTFkd2s3bGsyazBqcg==&igsi=MTFkd2s3bGsyazBqcg=="
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn">
+               📸 Βρείτε μας στο Instagram
+            </a>
+
+            <!-- Κουμπί Ραντεβού -->
+            <a href="https://www.ebarber.gr/barbershops/madeira-barbershop"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn">
+               📅 Κλείστε το επόμενο σας ραντεβού
+            </a>
+
+            <!-- Κουμπί Google Maps -->
+            <a href="https://maps.google.com/?q=Βασιλέως+Αλεξάνδρου+118,+Περιστέρι"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn">
+               📍 Τοποθεσία στο Google Maps
+            </a>
+
+        </div>
+
+        <div class="footer">
+            &copy; Madeira Barbershop. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
